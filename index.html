@@ -4,53 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    
+    <title>PSD to HTML</title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="logo">
-                <img src="./images/logo-gapp.png" alt="GAPP">
-            </div>
-            <div class="menu">
-                <ul>
-                    <li> <a href="#">Home</a> </li>
-                    <li> <a href="#">Quem somos</a> </li>
-                    <li> <a href="#">Produtos e serviços</a> </li>
-                    <li> <a href="#">Aplicações</a> </li>
-                    <li> <a href="#">Fale conosco</a> </li>
-                </ul>
-            </div>
-        </header>
-        <section id="banner">
 
-        </section>
-        <section id="content">
-            <div class="col">
-                <h2></h2>
-                <p></p>
-                <a href="#" class="btn-saiba-mais">Saiba mais</a>
-            </div>
-            <div class="col">
-                <h2></h2>
-                <p></p>
-                <a href="#" class="btn-saiba-mais">Saiba mais</a>
-            </div>
-            <div class="col">
-                <h2>Principais Aplicações</h2>
-                <a href="#">
-                    <img src="./images/img-video.jpg" alt="video">
-                </a>
-            </div>
-        </section>
-        
+    <section id="topo">
+        <div class="container">
+            <header>
+                <div class="col-3"><div class="logo">
+                    <img src="./images/logo-gapp.png" alt="GAPP">
+                </div></div>
+                <div class="col-9 menu" >
+
+                   
+                    <ul>
+                        <li> <a href="#" class="active">Home</a> </li>
+                        <li> <a href="#">Quem somos</a> </li>
+                        <li> <a href="#">Produtos e serviços</a> </li>
+                        <li> <a href="#">Aplicações</a> </li>
+                        <li> <a href="#" class="button">Fale conosco</a> </li>
+                    </ul>
+          
+                </div>
+                
+            </header>
+            <section id="banner">
+                <div class="row">
+                    <div class="col-7"><img src="./images/banner-01.jpg" alt=""></div>
+                    <div class="col-5 box">
+                        <div class="texto"><h2>Ferramentaria</h2><p>Fazemos usinagem em materiais ferrosos, não ferrosos, plásticos e elastômeros. Além da fabricação de diversas peças, todas customizadas para a necessidade do cliente, respeitando o desenhos ou amostras.</p></div>
+                        <div class="setas"><a href=""><img src="./images/seta-esquerda.png" alt=""></a><a href=""><img src="./images/seta-direita.png" alt=""></a></div>
+                        <div class="bullets">
+                            <a href=""><img src="./images/bullet-on.png" alt=""></a>
+                            <a href=""><img src="./images/bullet-off.png" alt=""></a>
+                            <a href=""><img src="./images/bullet-off.png" alt=""></a></div>
+                    </div>
+                </div>
+    
+            </section>
+           
+            
+        </div>
+
+
+
+    </section>
+
+    <section id="meio">
+        <div class="container">
+            <div class="row">
+        <div class="col-4">
+            <h3>Conheça a GAPP</h3>
+            <p>Nossa estrutura permite oferecer um serviço personalizado, qualidade excepcional e o fácil acesso do cliente a todas as etapas do processo.</p>
+            <a href="#" class="btn-saiba-mais">Saiba mais <img src="./images/botao-avancar.png" alt=""></a>
+        </div>
+        <div class="col-4">
+            <h3>Produtos e Serviços</h3>
+            <p>Com máquinas modernas e instalações adequadas, a GAPP está preparada para atender as mais exigentes necessidades no setor da mecânica de precisão.</p>
+            <a href="#" class="btn-saiba-mais">Saiba mais <img src="./images/botao-avancar-2.png" alt=""></a>
+        </div>
+        <div class="col-4">
+            <h3>Principais Aplicações</h3>  
+            <a href="#">
+                <div class="play"></div>
+                <img src="./images/img-video.jpg" alt="video">
+            </a>
+        </div>
     </div>
+    </div>
+    </section>
+
+
+
+
+
     <footer>
         <div class="container">
+            <div class="row">
+                <div class="col-1"><a href=""><img src="./images/logo-gapp-footer.png" alt=""></a></div>
+                <div class="col-4 info"><p>Rua Xxxxxx Xxxxxx - Xxxxxx<br>
+                    CEP: XXXXX-XXX São Paulo, SP - Brasil<br>
+                    Tel: + 55 11 XXXX-XXXX<br>
+                    E-mail: <a href="">contato@gapp.com.br</a> </p></div>
+                <div class="col-2 local"><img src="./images/icon-location.png" alt=""></div>
+                <div class="col-5 final">
+                    <a href="" class="fale-conosco">Fale conosco</a>
+                    <p>copyright © GAPP Industrial -  Todos os direitos reservados.</p>
+                </div>
+
+
+
+
+
+            </div>
 
         </div>
     </footer>
-    
+      <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+</script>
 </body>
 </html>
